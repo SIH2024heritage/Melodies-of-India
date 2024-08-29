@@ -6,9 +6,49 @@
 }
 html,
 body {
+  display: block;
   width: 100%;
   height: auto;
 }
+
+.mobile-message {
+  display: none;
+}
+
+.message {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1060px) {
+  .main {
+    display: none;
+  }
+  .mobile-message {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #000000;
+    background-color: #000000;
+    height: 100vh;
+  }
+}
+
+/* .mobile-message {
+ 
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
 .main {
   width: 100%;
   height: auto;
@@ -33,7 +73,7 @@ body {
   transform: scale(1.1);
   /* mix-blend-mode: darken; */
 }
-.navbar{
+.navbar {
   width: 100%;
   height: 10vh;
   padding-top: 15px;
@@ -43,18 +83,17 @@ body {
   left: 0px;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.navbar a{
-
+.navbar a {
   color: antiquewhite;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-style:normal;
+  font-style: normal;
   font-size: 25px;
   margin-left: 25px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: rgb(232, 184, 122);
 }
 
@@ -126,31 +165,29 @@ body {
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.7);
   inset: 0;
-
 }
 .page3 h1 {
   color: antiquewhite;
   font-family: "Calligraffitti", cursive;
   font-weight: 700;
-  font-style:normal;
+  font-style: normal;
   /* padding-left: 10%;
   padding-right: 10%; */
 }
 #tempTaj {
   padding: 0%;
   transform: scale(0.6) translate(-280px);
-
 }
-.newDiv{
+.newDiv {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.newDiv button{
+.newDiv button {
   margin-top: 10px;
 }
-.map{
+.map {
   margin: 0%;
   padding: 0%;
   width: 100%;
@@ -164,75 +201,34 @@ body {
   background-repeat: no-repeat;
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.6);
-  inset: 0; 
+  inset: 0;
 }
-.map{
- display: flex;
- align-items: center;
- justify-content: space-around;
- flex-direction: column;
- text-align: center;
- 
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
 }
-.map_main{
+.map_main {
   width: 800px;
   height: 500px;
 }
-.text{
+.text {
   color: rgba(250, 235, 215, 0.752);
   font-weight: 400;
   font-size: 25px;
   text-align: center;
 }
-.text h6{
+.text h6 {
   width: 500px;
   font-size: 15px;
   font-weight: 300;
   margin-left: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS */
 .button-74 {
-
   background-color: #fbeee0;
   border: 2px solid #422800;
   border-radius: 30px;
