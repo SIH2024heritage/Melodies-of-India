@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The melodies of India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="main" data-scroll-container>
+      <div class="hero" data-scroll-section>
+        <div class="navbar">
+      <a href="#" id="intro-link">Intro</a>
+      <a href="#">AR-VR</a>
+      <a href="#" onclick="sayAlert()">Artisians</a>
+      <a href="#">Locate</a>
+        </div>
+        <div class="back">
+          <img class="heroImg" src="./components/title.png" alt="heroImg" />
+        </div>
+      </div>
+      <div class="info" id="page2" data-scroll-section>
+        <p>
+          India is a land of timeless traditions and vibrant cultures. From
+          ancient temples to colorful festivals, every corner of this nation
+          tells a story of unity in diversity. With its rich heritage, classical
+          music, dance, and arts, India celebrates its past while embracing the
+          future. Explore the soul of India—a land where history and tradition
+          live on in harmony with progress.
+        </p>
+      </div>
+      <div class="vdo" data-scroll-section>
+        <video class="video" autoplay loop muted>
+          <source type="video/mp4" src="./components/v1.mp4" />
+        </video>
+        <p>
+          When every view reflects culture and every individual shares the same
+          traditions, India stands apart. India is unique; India is
+          extraordinary
+        </p>
+      </div>
+      <div class="page3" data-scroll-section>
+        <img id="tempTaj" src="./components/taj.webp" alt="tajimg" />
+        <div class="newDiv">
+          <h1>
+            Experience a fully immersive world through cutting-edge VR and AR
+            technology, where the boundaries between reality and imagination
+            blur, delivering unparalleled interactive adventures.
+          </h1>
+          <button onclick="sayAlert()" class="button-74">Read More</button>
+        </div>
+      </div>
+      <div class="map" data-scroll-section>
+        <div class="text">
+          <h1>A Journey Through Time</h1>
+          <h6>
+            ravel through the annals of history with India’s World Heritage
+            Sites. Each monument is a testament to the splendor of India's
+            ancient kingdoms, spiritual legacy, and cultural vibrance. Let the
+            map guide you to the hidden gems that have shaped the nation's
+            heritage
+          </h6>
+        </div>
+
+        <div data-scroll-section>
+          <iframe
+            class="map_main"
+            async
+            defer
+            src="https://www.google.com/maps/d/u/0/embed?mid=1rWVL7-ObutJZd9PlLtzqS4kounhEzHg&ehbc=2E312F"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.js">
+     
+    </script>
+  </body>
+</html>
