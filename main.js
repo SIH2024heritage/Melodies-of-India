@@ -15,6 +15,12 @@ function sayAlert() {
   alert("work in progress");
   console.log("hiii");
 }
+
+function redirect() {
+  // Redirects to the second HTML page
+  window.location.href = "reviews.html";
+}
+
 // document.getElementById("intro-link").addEventListener("click", function (e) {
 //     e.preventDefault();
 
